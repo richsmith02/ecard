@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+#background {
+     width:100vw;
+    height:auto;
+    margin:auto;
+}
+
+#dead_jesus {
+  opacity: 1.0; 
+  cursor: pointer;
+  animation: wobbly 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes wobbly {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.005);
+    }
+}
+
+@keyframes dead_jesus {
+     0%  {transform: translateY(0px)}
+    100%  {transform: translateY(400px)}
+}
+
+#alive_jesus {
+  opacity: 0;
+}
+
+#church {
+    opacity: 1.0; 
+}
+
+#light_on_1, #light_on_2, #light_on_3 {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#logs {
+    cursor: pointer; 
+}
+
+
+#flames {
+  opacity: 1.0;
+  display: none;
+}
+
+@keyframes flames {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.0025);
+    }
+}
+
+#lily {
+  opacity: 1.0;
+  cursor: pointer;
+}
+
+@keyframes lily {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.0025);
+    }
+}
+
+
+#moon {
+    opacity: 1.0; 
+    cursor: pointer;
+}
+
+#daytime {
+    opacity: 1;
+   
+}
+
+#nighttime {
+    opacity: 1;
+    transition: opacity 5s;
+}
+
+#goddess {
+    opacity: 0;
+    transition: opacity 2s;
+    cursor: pointer;
+}
+
+
+#bunny_hare {
+    opacity: 1.0;
+    display: none;
+}
+
+@keyframes bunny_hare {
+     0%  {transform: translateY(0px)}
+    100%  {transform: translateY(-400px)}
+}
+
+#clouds {
+    opacity: 0;
+}
+
+#Cloud_1, #Cloud_2, #Cloud_3, #Cloud_4, #Cloud_5 {
+    
+}
+
+@keyframes Cloud_1 {
+     0%  {transform: translateX(0px)}
+    100%  {transform: translateX(100px)}
+}
+
+@keyframes Cloud_2 {
+     0%  {transform: translateX(0px)}
+    100%  {transform: translateX(200px)}
+}
+
+
+@keyframes Cloud_3 {
+     0%  {transform: translateX(-800px)}
+    100%  {transform: translateX(250px)}
+}
+
+
+@keyframes Cloud_4 {
+     0%  {transform: translateX(200px)}
+    100%  {transform: translateX(-100px)}
+}
+
+@keyframes Cloud_5 {
+     0%  {transform: translateX(200px)}
+    100%  {transform: translateX(-75px)}
+}
+
+#eggs {
+     cursor: pointer;
+    
+}
+
+@keyframes eggs {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.0025);
+    }
+}
+
+#bunny_rabbit {
+     cursor: pointer;
+    
+}
+
+@keyframes bunny_rabbit {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.0025);
+    }
+}
+
+#happy_easter_text {
+    display: none;
+    opacity: 1.0; 
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#Sun_Rays {
+    transition: rotate(360); 
+}
+
+@keyframes happy_easter_text  {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.0025);
+    }
+
+/* dialog boxes */
+
+#lily_exp {
+    opacity: 0; 
+     transition: opacity 2s;
+}
+
+#fire_exp {
+    opacity: 0;
+    transition: opacity 2s; 
+}
+
+#jesus_exp {
+    opacity: 0; 
+    transition: opacity 2s;
+}
+
+#church_exp {
+    opacity: 0; 
+    transition: opacity 2s;
+}
+
+#goddess_exp {
+    display: inline; 
+    opacity: 1.0;
+}
+
+#egg_exp {
+    opacity: 0; 
+    transition: opacity 2s;
+}
+
+#bunny_exp {
+    opacity: 0; 
+    transition: opacity 2s;
+}
+
+#moon_exp {
+    opacity: 0;
+    transition: opacity 2s; 
+}
+
